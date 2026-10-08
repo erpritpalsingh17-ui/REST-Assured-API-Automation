@@ -26,7 +26,7 @@ public class UserTest {
         UserRequest userRequest = new UserRequest(
                 "Pritpal",
                 "Singh",
-                37
+                38
         );
 
         Response response = userApi.createUser(userRequest);
